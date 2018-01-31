@@ -1,7 +1,7 @@
 #include "fibonacci.hpp"
 #include <CppUTest/CommandLineTestRunner.h>
 
-TEST_GROUP(GroupFibonacci){};
+TEST_GROUP(Test_Fibonacci){};
 
 TEST(GroupFibonacci, test_fibonacci_recurssif){
   int valFibo = fibonacciRecursif(5);
