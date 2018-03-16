@@ -11,7 +11,7 @@ private:
   Point _p1;
 public:
   Ligne(const Couleur& couleur, const Point& p0, const Point& p1);
-  void afficher() const override;
+  virtual void afficher() const;
   const Point& getP0() const;
   const Point& getP1() const;
 };

@@ -11,7 +11,7 @@ private:
 public:
   PolygoneRegulier(const Couleur& couleur, const Point& centre, int rayon, int nbCotes);
   ~PolygoneRegulier();
-  void afficher() const override;
+  virtual void afficher() const;
   int getNbPoints() const;
   const Point& getPoint(int indice) const;
 };
