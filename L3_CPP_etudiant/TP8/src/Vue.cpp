@@ -54,7 +54,7 @@ void VueGraphique::ouvrirFichier() {
 	int ret = dialog.run();
 	if (ret == Gtk::RESPONSE_OK) {
 		std::string nomFichier = dialog.get_filename();
-		_controleur.chargerInventaire();
+		
 		// TODO charger les donnees du fichier dans l'inventaire
 	}
 }
